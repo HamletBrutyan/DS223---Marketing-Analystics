@@ -14,8 +14,7 @@ p_est = params["p"]
 q_est = params["q"]
 M_est = params["M"]
 
-# You can adjust market potential for the new product:
-M_target = M_est  # or e.g., 250000 for a bigger market
+M_target = M_est 
 
 def bass_adopters(t, p, q, M):
     num = (p + q)**2 * np.exp(-(p + q) * t)
