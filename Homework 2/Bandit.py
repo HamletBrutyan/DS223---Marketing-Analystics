@@ -545,7 +545,7 @@ def comparison():
     bandit_rewards = [1, 2, 3, 4]
     num_trials = 20000
     
-    # Algorithm parameters (documented)
+    # Algorithm parameters
     epsilon_initial = 0.1  # Initial epsilon, decays by 1/t during experiment
     precision = 100.0  # Known precision (tau) for Thompson Sampling (inverse variance)
     
