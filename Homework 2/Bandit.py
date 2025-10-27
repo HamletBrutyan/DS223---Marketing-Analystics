@@ -15,7 +15,7 @@ in the context of A/B testing for advertisement optimization:
 
 Experiment Configuration:
 ------------------------
-- Number of Bandits: 4 (advertisement options)
+- Number of Bandits: 4 
 - Bandit Rewards: [1, 2, 3, 4]
 - Number of Trials: 20,000
 - Reward Distribution: Gaussian with noise (standard deviation = 0.1 for epsilon-greedy)
